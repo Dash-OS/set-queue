@@ -1,6 +1,8 @@
 # SetQueue 
 
-Extremely simple FIFO Queue using ES6 Set.
+Extremely simple FIFO Queue using ES6 Set. Note that Set's require every value to 
+be unique so this is generally better suited for dealing with situations other than 
+simple values.
 
 ### Example
 
