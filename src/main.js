@@ -9,6 +9,7 @@ export default class SetQueue {
     this.set.delete(next.value)
     return next.value
   }
+  clear = () => this.set.clear()
   add = item => this.set.add(item)
   delete = item => this.set.delete(item)
   get size() { return this.set.size }
