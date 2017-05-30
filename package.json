@@ -1,9 +1,8 @@
 {
   "name": "set-queue",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Simple Queue built on top of ES6 Set",
   "main": "dist/set-queue.js",
-  "module": "src/main.js",
   "author": "Braden R. Napier",
   "license": "MIT",
   "scripts": {
