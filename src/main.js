@@ -9,6 +9,12 @@ export default class SetQueue {
     this.set.delete(next.value)
     return next.value
   }
+  [Symbol.iterator] = function*() {
+    for ( let value of this.set ) {
+      this.set.delete(value)
+      yield value
+    }
+  }
   clear = () => this.set.clear()
   add = item => this.set.add(item)
   delete = item => this.set.delete(item)

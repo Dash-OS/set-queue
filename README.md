@@ -25,6 +25,12 @@ Queue.size ; // 3
 const value = Queue.next() ; // 1
 
 Queue.size ; // 2
+
+for ( let item of Queue ) {
+  console.log(item) ; // 2, 3
+}
+
+Queue.size ; // 0
 ```
 
 ### SagaObservable Example
